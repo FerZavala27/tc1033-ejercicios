@@ -1,10 +1,10 @@
-def greet():
-    name = input()
+def greet(name):
     print("Hello", name)
-greet()
+greet("Fer")
 
 def run(num):
-    num=int(input())
     if num>=0 and num<10:
         for x in (0, num):
-            print("runnung")
+            print("running")
+greet("Hansel","Grettel")
+run(1,2,3,4,5)

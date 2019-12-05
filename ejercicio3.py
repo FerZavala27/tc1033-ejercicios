@@ -16,3 +16,8 @@ class Terrestre():
         self._ruedas=ruedas
         self._motor=motor
         self._puertas=puertas
+
+class Marino():
+    def _init_(self,_propulsion):
+        self._propulsion=propulsion
+       

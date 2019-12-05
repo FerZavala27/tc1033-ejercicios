@@ -27,4 +27,9 @@ class Aereo():
         self._medio=medio
         self._pasajeros=pasajeros
         self._velocidad=velocidad
-        
+
+class Ruedas():
+    def _init_(self,_tamaño,_presion,_fabricante):
+        self._tamaño=tamaño
+        self._presion=presion
+        self._fabricante=fabricante

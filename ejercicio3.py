@@ -10,3 +10,9 @@ class Motor():
         self._combustible=combustible
         self._fabricante=fabricante
         self._potencia=potencia
+
+class Terrestre():
+    def _init_(self,_ruedas,_motor,_puertas):
+        self._ruedas=ruedas
+        self._motor=motor
+        self._puertas=puertas
